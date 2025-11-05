@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description" content="Site de légumes frais">
+
+    <title>Fresh Vegetables</title>
+
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <script src="scripts/nav.js" defer></script>
+    <script src="scripts/form.js" defer></script>
+    <script src="scripts/main.js" defer></script>
+
+    <header id="site-header"> 
+
+        <div class="header-banner flexRow">
+            <img class="site-logo" src="styles/images/fresh-vegetables.png" alt="logo de la marque Fresh Vegetables">
+            <nav role="navigation" aria-label="menu principal" class="nav banner-nav flexColumn">
+                <ul>
+                    <li><a href="#site-header" class="link link--bk link--active">Accueil</a></li>
+                    <li><a href="#about-section" class="link link--bk">A Propos</a></li>
+                    <li><a href="#freshvegetables-section" class="link link--bk">Vegetables</a></li>
+                    <li><a href="#testimonials-section" class="link link--bk">Témoignages</a></li>
+                    <li><a href="#contact-section" class="link link--bk">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <div class="header-content">
+            <div class="flexRow">
+                <div class="content-box">
+                    <h1 class="site-title">Bienvenue chez Fresh Vegetables</h1>
+                    <span>Le "<em>Vegetables Shop</em>"</span>
+                    <p class="header-para">
+                        Lorem Iosum color sit omet. consectetur adipiscing elit. Quisque sapien velit, aliquet eget commodo nec, auctor a sapien. Nam eu neque vuloutole clom inoncus toucious. curo pitur cuis varius libero. Lorem.
+                    </p>
+                </div>
+                <div class="content-box">
+                    <img id="headerContent_img" src="styles/images/img2.png" alt="Image de brocolis">
+                </div>
+            </div>
+            <div class="btn-container flexRow">
+                <a href="http://google.fr"><button class="btn btn--small btn--active" aria-label="Afficher slide 1"></button></a>
+                <button class="btn btn--small" aria-label="Afficher slide 2"></button>
+                <button class="btn btn--small" aria-label="Afficher slide 3"></button>
+            </div>
+        </div>
+
+    </header>
+
+    <nav id="fixedNav" role="navigation" aria-label="menu principal" class="nav flexRow hidden">
+        <ul>
+            <li><a href="#site-header" class="link link--wh">Accueil</a></li>
+            <li><a href="#about-section" class="link link-main link--wh">A Propos</a></li>
+            <li><a href="#freshvegetables-section" class="link link-main link--wh">Vegetables</a></li>
+            <li><a href="#testimonials-section" class="link link-main link--wh">Témoignages</a></li>
+            <li><a href="#contact-section" class="link link-main link--wh">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main class="site-main">
+        <section id="about-section" class="section-wrapper">
+            <div class="section-container shadow">
+                <div class="section-content flexRow">
+                    <div class="content-box left">
+                        <h2 class="section-title">A PROPOS</h2>
+                        <p class="section-para">
+                            Lorem losum aolor si amer, consecterur aarpiscine elliOuisaue sapien velit. a lauet edei commodo nec. auctor o sapien. Nam eu neque vulputate diam rhoncus faucibusCurabitur quis varius libero. Lorem.Lorem ipsum dolor sit amet, consecretur aaloiscina ellt. Quisaue sapien velli, allauer eaeu commodo nec auctor a sabien. Nam eu neaue vu outate diam rhoncus faucibus. Curabitur quis varius libero. Lorem.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque scoien velll, alleuel ecel commodo nec, auclor a saoien. nom eu neque vuloutare diam rnoncus raucious. Curabitur quis Varius ioero
+                        </p>
+                        <button>TOUTES LES INFOS</button>
+                    </div>
+                    <div class="content-box right">
+                        <img src="styles/images/about.jpg" alt="Image de différents légumes">
+                    </div>
+                </div>
+            </div> 
+        </section>
+
+        <section id="freshVegetables-section" class="section-wrapper">
+            <div class="section-container">
+                <h2 class="section-title txt-center">FRESH <span>VEGETABLES</span></h2>
+                <div class="section-content">
+                    <div class="flexRow">
+                            <div class="content-box left">
+                                <h3 class="content-title">Meilleur "<em>Vegetables Shop</em>"</h3>
+                                <p class="section-para">Lorem osum coor si amel, consecelr do osene elit. Quisque sapien velit, aliquet eget commodo nec, auctor a sapien. Nam eu neque vulputate diam Inoneus laucious. curabiu cuis varius lloere Lorem.lorem losum aolor sil amer, consecretun adioscina elit. Ousaue saoien velit allauet edei commodo nec, auctor a sapien. Nam eu neque vulputate diam rhoncus faucibus. Curabitur quis varius libero. Lorem</p>  
+                                <div class="image-block flexColumn">
+                                    <img src="styles/images/v2.jpg" alt="Photo de différents légumes regroupés sur une surface en bois">
+                                    <div class="image-block-nb">
+                                        <span>02</span>
+                                    </div>
+                                </div>  
+                            </div>
+
+                            <div class="content-box right">
+                                <div class="image-block flexColumn">
+                                    <img src="styles/images/v1.jpg" alt="Photo d'un panier de légume bien garni">
+                                    <div class="image-block-nb">
+                                        <span>01</span>
+                                    </div>
+                                </div>
+                            </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <section id="testimonials-section" class="section-wrapper">
+            <div class="section-container flexColumn">
+                <h2 class="section-title abs abs--TR">TEMOIGNAGES</h2>
+                <div class="row"></div>
+                <div class="section-content flexRow">
+
+                        <div class="left flexColumn">
+                            <div class="profil-card flexColumn">
+                                <img class="profil-image" src="styles/images/tes2.jpg" alt="Photo de profil">
+                                <img class="profil-quote" src="styles/images/test_con.png" alt="guillemets">
+                            </div>
+                        </div>
+
+                        <div class="right flexColumn">
+                            <h4>Joahna</h4>
+                            <h5>Son avis</h5>
+                            <p class="section-para">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sapien velit, aliquet eget commodo nec, auctor a sapien. Nam eu neque vulputate diam rhoncus faucibus. Curabitur quis varius libero. Lorem.</p>
+                        </div>
+
+                </div>
+                <div class="row">
+                        <div class="btn-container flexRow">
+                            <a href="http://google.fr"><button class="btn btn--medium btn--active" aria-label="Afficher commantaire 1"></button></a>
+                            <button class="btn btn--medium" aria-label="Afficher commantaire 2"></button>
+                            <button class="btn btn--medium" aria-label="Afficher commantaire 3"></button>
+                        </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact-section" class="section-wrapper">
+        <div class="section-container">
+            <h2 class="section-title txt-center">NOUS <span>CONTACTER</span></h2>
+            <div class="section-content flexRow shadow">
+                    <form class="content-box left flexColumn" action="">
+                        <input id="name" class="input" type="text" placeholder="Votre Nom" required>
+                        <input id="email" class="input" type="email" placeholder="Votre Email" required>
+                        <input id="tel" class="input" type="tel" placeholder="Téléphone" required>
+                        <textarea id="message" class="textarea input" name="" placeholder="Message" required></textarea>
+                        <input class="submit" type="submit" value="Envoyer">
+                    </form>
+                    <div class="content-box right">
+                        <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3188.3558136176384!2d-2.77760682329837!3d47.64792888512216!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48101c1ee660f85f%3A0x37b8927e9d6ad86b!2sGRETA%20de%20Bretagne%20Sud%20-%20Agence%20de%20Vannes!5e1!3m2!1sfr!2sfr!4v1745416412536!5m2!1sfr!2sfr"style="border:none;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+            </div>
+        </div>
+        </section>
+    </main>
+
+    <footer id="site-footer" class="flexColumn">
+        <img class="site-logo" src="styles/images/fresh-vegetables.png" alt="Logo de la marque Fresh Vegetables">
+        <div class="footer-container flexRow">
+            <div>
+                <strong>Adresse</strong>
+                <ul>
+                    <li >ZA des blés noirs</li>
+                    <li >(+71 1234567890)</li>
+                    <li >fresh@gmail.com</li>
+                </ul>
+            </div>
+            <div>
+                <strong>Nous Suivre</strong>
+                <ul>
+                    <li><svg class="icone" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Pro 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M400 32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48zm-48.9 158.8c.2 2.8.2 5.7.2 8.5 0 86.7-66 186.6-186.6 186.6-37.2 0-71.7-10.8-100.7-29.4 5.3.6 10.4.8 15.8.8 30.7 0 58.9-10.4 81.4-28-28.8-.6-53-19.5-61.3-45.5 10.1 1.5 19.2 1.5 29.6-1.2-30-6.1-52.5-32.5-52.5-64.4v-.8c8.7 4.9 18.9 7.9 29.6 8.3a65.447 65.447 0 0 1-29.2-54.6c0-12.2 3.2-23.4 8.9-33.1 32.3 39.8 80.8 65.8 135.2 68.6-9.3-44.5 24-80.6 64-80.6 18.9 0 35.9 7.9 47.9 20.7 14.8-2.8 29-8.3 41.6-15.8-4.9 15.2-15.2 28-28.8 36.1 13.2-1.4 26-5.1 37.8-10.2-8.9 13.1-20.1 24.7-32.9 34z"/></svg>Twitter</li>
+                    <li><svg class="icone" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Pro 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M400 32H48A48 48 0 0 0 0 80v352a48 48 0 0 0 48 48h137.25V327.69h-63V256h63v-54.64c0-62.15 37-96.48 93.67-96.48 27.14 0 55.52 4.84 55.52 4.84v61h-31.27c-30.81 0-40.42 19.12-40.42 38.73V256h68.78l-11 71.69h-57.78V480H400a48 48 0 0 0 48-48V80a48 48 0 0 0-48-48z"/></svg>Facebook</li>
+                    <li><svg class="icone" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Pro 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M224,202.66A53.34,53.34,0,1,0,277.36,256,53.38,53.38,0,0,0,224,202.66Zm124.71-41a54,54,0,0,0-30.41-30.41c-21-8.29-71-6.43-94.3-6.43s-73.25-1.93-94.31,6.43a54,54,0,0,0-30.41,30.41c-8.28,21-6.43,71.05-6.43,94.33S91,329.26,99.32,350.33a54,54,0,0,0,30.41,30.41c21,8.29,71,6.43,94.31,6.43s73.24,1.93,94.3-6.43a54,54,0,0,0,30.41-30.41c8.35-21,6.43-71.05,6.43-94.33S357.1,182.74,348.75,161.67ZM224,338a82,82,0,1,1,82-82A81.9,81.9,0,0,1,224,338Zm85.38-148.3a19.14,19.14,0,1,1,19.13-19.14A19.1,19.1,0,0,1,309.42,189.74ZM400,32H48A48,48,0,0,0,0,80V432a48,48,0,0,0,48,48H400a48,48,0,0,0,48-48V80A48,48,0,0,0,400,32ZM382.88,322c-1.29,25.63-7.14,48.34-25.85,67s-41.4,24.63-67,25.85c-26.41,1.49-105.59,1.49-132,0-25.63-1.29-48.26-7.15-67-25.85s-24.63-41.42-25.85-67c-1.49-26.42-1.49-105.61,0-132,1.29-25.63,7.07-48.34,25.85-67s41.47-24.56,67-25.78c26.41-1.49,105.59-1.49,132,0,25.63,1.29,48.33,7.15,67,25.85s24.63,41.42,25.85,67.05C384.37,216.44,384.37,295.56,382.88,322Z"/></svg>
+                        Instagram</li>
+                    <li><svg class="icone" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Pro 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"/></svg>Linkedin</li>
+                </ul>
+            </div>
+            <div>
+                <strong>Newsletter</strong>
+                <form action="">
+                    <input class="input" type="email" placeholder="Tapez votre email">
+                    <input class="submit" id="newsletter_submit" type="submit" value="S'INSCRIRE">
+                </form>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright © 2023 Greta Bretagne Sud - Exercice CDUI</p>
+        </div>
+    </footer>
+
+    <div class="popup-wrapper flexColumn hidden">
+        <div class="popup-card flexColumn">
+        </div>
+    </div>
+
+</body>
+</html>
